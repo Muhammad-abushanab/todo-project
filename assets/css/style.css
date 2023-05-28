@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700;800&family=Rubik:wght@400;500;700&display=swap');
+
+html,
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+/* header styling  */
+
+header {
+    background-color: #A6D0DD;
+    padding: 10px;
+    height: 75px;
+}
+
+
+header img {
+    display: inline-block;
+    height: 100px;
+    margin-left: 30px;
+}
+
+nav {
+    height: inherit;
+    float: right;
+    text-align: center;
+}
+
+nav ul {
+    position: relative;
+    margin-right: 10px;
+    top: 40%;
+    right: 50%;
+    list-style-type: none;
+    margin: 0 45px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 7px;
+    border-style: solid;
+    border-color: transparent;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+nav ul li:hover{
+    color: white;
+    border-style: solid;
+    border-radius: 5%;
+    border-color: #FFD3B0;
+    background-color: #FFD3B0;
+}
+nav ul li a {
+    letter-spacing: 3px;
+    font-size: large;
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+/* end of header styling */
+
+main {
+    margin-bottom: 150px;
+    padding-bottom: 50px;
+}
+
+/* start the hero section */
+#hero {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#hero .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#hero .hero-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+#hero .hero-text {
+    overflow: hidden;
+    margin-left: 220px;
+}
+
+#hero .hero-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#hero .hero-text p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+/* end of the hero section */
+
+/* table section styling  */
+#table {
+    background-color: #FFD3B0;
+    padding: 20px;
+    margin: 0 40px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+thead th {
+    border: black solid;
+    padding: 10px;
+    text-align: center;
+}
+
+
+tbody td {
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: center;
+    border-right: black;
+    padding: 10px;
+}
+
+
+tbody input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* end of the table section */
+
+/* start of Style the footer */
+footer {
+    background-color: #A6D0DD;
+    padding: 10px 0;
+    text-align: center;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer ul li a:hover {
+    color: white;
+}
+
+footer .container {
+    margin-top: 10px;
+}
+
+footer .container .footer-copyright {
+    font-size: 12px;
+    color: #666;
+}
+
+/* the footer ending */
+
+#my-information {
+    text-align: center;
+}
+
+#my-information .container {
+    margin-top: 20px;
+}
+
+#my-information .my-photo {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#my-information .container .name {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+#my-information .container .description {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Style the user-contact section */
+#user-contact {
+    
+    margin-top: 50px;
+    text-align: center;
+}
+
+#user-contact .container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#user-contact form {
+    text-align: left;
+}
+
+#user-contact form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#user-contact form input,
+#user-contact form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#user-contact form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5%;
+    color: white;
+    background-color: #A6D0DD;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#user-contact form button:hover {
+    color: black;
+    background-color: #FFD3B0;
+}
